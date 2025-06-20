@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Training</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-half"> <div class="box has-text-centered">
+                        <h1 class="title is-2">Bienvenido</h1>
+                        <h2 class="subtitle is-4">Semana 1</h2>
+                        <p>Entrenamiento con Bulma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </header>
+    <main>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-centered">
+            <div class="column is-one-third"> <form style="display: flex; flex-direction: column; gap: 20px;">
+                <label for="name" class="label">Nombre: </label>
+                <div class="control">
+                    <input id="name" name="name" type="text" class="input">
+                </div>
+
+                <label for="age" class="label">Edad: </label>
+                <div class="control">
+                    <input id="age" name="age" type="text" class="input">
+                </div>
+
+                <div class="control">
+                    <button id="btnForm" type="button" class="button is-primary is-fullwidth">Enviar</button>
+                </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section is-flex is-justify-content-center is-align-items-center" style="min-height: 100vh;">
+        <div id="alertBox" class="box has-background-primary-light p-6 has-text-centered" style="display: none;">
+        </div>
+    </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
